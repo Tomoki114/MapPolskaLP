@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  width: 100%
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+	padding:0 15px;
+	margin:0 auto;
+}
+
+header{
+	width: 100%;
+	height: 65px;
+	background-color: rgba(34, 49, 52, 0.9); 
+	position: fixed;
+	top:0;
+	z-index: 10;
+}
+
+.header-left a{
+	color: white;
+	font-size:30px;
+	float:left;
+	line-height: 65px;
+	font-style: oblique;
+
+}
+
+.far{
+	display: inline-block;
+	margin-right: 15px;
+	color:white;
+}
+
+.top-wrapper{
+	padding-top:80px;
+	padding-bottom:100px;
+	background-image:url(warsaw-pic.jpg);
+	background-size:cover;
+	text-align: center;
+}
+.top-wrapper h1{
+	font-size: 45px;
+	letter-spacing: 5px;
+	color: #C04040;
+	font-style: oblique;
+}
+.top-wrapper p{
+	color:white;
+	font-size:20px;
+}
+
+.top-wrapper span{
+	color: white;
+}
+
+.bg-opacity{
+	background: rgba(12,2,2,.5);
+	height: 100%;
+}
+
+.app{
+	margin-bottom: 4px;
+}
+
+.btn{
+	opacity: 0.8;
+	cursor:pointer;
+}
+.btn:hover{
+	opacity:1.0;
+}
+
+
+.content-wrapper{
+	height:500px;
+	padding-bottom:80px;
+	background-color: #e1eec3;
+	text-align: center;
+}
+.heading{
+	padding-top:60px;
+	padding-bottom:30px;
+	color:black;
+}
+
+.content{
+	float:left;
+	width:25%;
+}
+
+.box{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+    margin:15px;
+}
+.box:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.box p {
+    margin: 0; 
+    padding: 0;
+}
+
+.heading{
+	font-weight: bold;
+	font-size: 20px;
+}
+.message-wrapper{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+footer{
+	background-color: rgba(34, 49, 52, 0.9);
+	height: 65px;
+}
+
+.footer-left a{
+	color: white;
+	font-size:30px;
+	line-height: 65px;
+	font-style: oblique;
+}
+
